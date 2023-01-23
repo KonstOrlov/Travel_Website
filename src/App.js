@@ -4,6 +4,9 @@ import Home from "./components/pages/Home.js";
 import Navbar from "./components/Navbar.js";
 
 import "./App.css";
+import Products from "./components/pages/Products.js";
+import Services from "./components/pages/Services.js";
+import SignUp from "./components/pages/SignUp.js";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
         <Navbar />
         <Routes >
           <Route path="/" exact element={<Home/>}/>
+          <Route path="/products" exact element={<Products/>}/>
+          <Route path="/services" exact element={<Services/>}/>
+          <Route path="/sign-up" exact element={<SignUp/>}/>
         </Routes >
       </Router >
     </>
