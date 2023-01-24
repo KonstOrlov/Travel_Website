@@ -27,7 +27,7 @@ function Footer() {
         <div className="footer-link-wrapper" >
           <div className="footer-link-items" >
             <h2 >About Us</h2 >
-            <Link to="/sign-up" >How it works</Link >
+            <Link to="/Travel_Website/sign-up" >How it works</Link >
             <Link to="/" >Testimonials</Link >
             <Link to="/" >Careers</Link >
             <Link to="/" >Investors</Link >
@@ -61,7 +61,7 @@ function Footer() {
       <section className="social-media" >
         <div className="social-media-wrap" >
           <div className="footer-logo" >
-            <Link to="/" className="social-logo" >
+            <Link to="/Travel_Website/" className="social-logo" >
               TRVL
               <i className="fab fa-typo3" />
             </Link >
